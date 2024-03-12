@@ -11,7 +11,7 @@
 
 # Hosting
 
-## This app is hosted on `vercel` you can see live version her [live](https:/tech-trove-ten.vercel.app)
+## This app is hosted on `vercel` you can see live version her [live](https://tech-trove-ten.vercel.app)
 
 # Back-End
 
