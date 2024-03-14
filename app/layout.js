@@ -3,6 +3,7 @@ import './globals.css'
 import Navbar from './_components/Navbar'
 import ConvexClientProvider from './providers/ConvexClientProvider'
 import { ClerkProvider } from '@clerk/nextjs'
+import Footer from './_components/footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -19,6 +20,7 @@ export default function RootLayout({ children }) {
           <ConvexClientProvider>
             <Navbar />
             {children}
+            <Footer />
           </ConvexClientProvider>
         </body>
       </html>
