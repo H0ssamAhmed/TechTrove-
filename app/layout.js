@@ -4,7 +4,7 @@ import Navbar from './_components/Navbar'
 import ConvexClientProvider from './providers/ConvexClientProvider'
 import { ClerkProvider } from '@clerk/nextjs'
 import Footer from './_components/footer'
-
+import { Analytics } from "@vercel/analytics/react"
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
@@ -21,6 +21,7 @@ export default function RootLayout({ children }) {
             <Navbar />
             {children}
             <Footer />
+            <Analytics />
           </ConvexClientProvider>
         </body>
       </html>
